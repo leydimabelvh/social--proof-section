@@ -9,11 +9,6 @@
 body {
     font-family: 'League Spartan', sans-serif;
 }
-.container__ {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .container__info {
     display: flex;
     flex-direction: column;
