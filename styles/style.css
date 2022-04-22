@@ -8,6 +8,7 @@
 
 body {
     font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
 }
 /* .container__info {
     display: flex;
@@ -35,10 +36,10 @@ body {
     /* background-color: yellow; */
     color: hsl(303, 10%, 53%);
     font-weight: 400;
-    font-size: 19px;
+    font-size: 18px;
     text-align: center;
     line-height: 150%;
-    padding: 15px 20px;
+    margin: 30px;
 }
 .rating__container {
     display: flex;
@@ -46,7 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(300, 24%, 96%);
-    margin: 20px;
+    margin: 20px 30px;
 }
 .rating__imageContainer {
     /* background-color: crimson; */
@@ -58,4 +59,33 @@ body {
     /* background-color: aqua; */
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.comment__containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.comment__container {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+.comment__image--profile {
+    border-radius: 50%;
+    height: 60px;
+}
+.comment__user {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+.comment__verification {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.comment__text {
+    color: hsl(300, 24%, 96%);
+    text-align: left;
+    line-height: 150%;
+    margin: 30px 20px;
 }
