@@ -72,7 +72,17 @@ body {
     margin: 10px 30px;
 }
 .comment__containerInfo {
+    /* background-color: rgb(238, 171, 130); */
     display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+
+}
+.comment__image {
+    grid-row: 1 / 3;
 }
 .comment__image--profile {
     border-radius: 50%;
