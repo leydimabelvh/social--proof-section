@@ -166,6 +166,9 @@ article:last-child {
         gap: 5px;
         margin: 0px 90px 90px 90px;
     }
+    .comment__containerInfo {
+        grid-template-columns: 1fr 5fr;
+    }
     .comment__container--one {
         margin-bottom: 80px;
     }
