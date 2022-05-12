@@ -11,7 +11,7 @@ body {
     font-size: 15px;
 }
 .info__container {
-    /* background-color: violet; */
+    background-color: violet;
     margin: 70px 0px 35px 0px;
     display: flex;
     flex-direction: column;
@@ -20,14 +20,14 @@ body {
 }
 .info__title {
     color: hsl(300, 43%, 22%);
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     font-weight: 700;
     font-size: 42px;
     text-align: center;
     padding: 20px;
 }
 .info__description {
-    /* background-color: yellow; */
+    background-color: yellow;
     color: hsl(303, 10%, 53%);
     font-weight: 400;
     font-size: 18px;
@@ -38,7 +38,7 @@ body {
 
 @media (min-width: 768px) {
     .info__rating {
-        /* background-color: turquoise; */
+        background-color: turquoise;
         display: grid;
         grid-template-columns: 1fr 2fr;
         margin: 100px 100px 20px 100px;
@@ -68,20 +68,20 @@ body {
     border-radius: 10px;
 }
 .rating__imageContainer {
-    /* background-color: crimson; */
+    background-color: crimson;
     margin-top: 15px;
 }
 .rating__description {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
-    /* background-color: aqua; */
+    background-color: aqua;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {
     .rating__containerPrimary {
-        /* background-color: cadetblue; */
+        background-color: cadetblue;
         /* display: flex;
         flex-direction: column;
         justify-content: center;
@@ -90,9 +90,9 @@ body {
         /* row-gap: 20px; */
     }
     .rating__container {
-        /* background-color: rgb(22, 80, 42); */
+        background-color: rgb(22, 80, 42);
         display: grid;
-                grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .rating__container--two {
         
@@ -118,7 +118,7 @@ body {
     margin: 10px 30px;
 }
 .comment__containerInfo {
-    /* background-color: rgb(238, 171, 130); */
+    background-color: rgb(238, 171, 130);
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 1fr;
@@ -159,7 +159,7 @@ article:last-child {
 
 @media (min-width: 768px) {
     .comment__containerPrimary {
-        /* background-color: yellow; */
+        background-color: yellow;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
@@ -173,7 +173,10 @@ article:last-child {
         margin-bottom: 80px;
     }
     .comment__container--two {
-        margin-bottom: 40px;
+        margin-bottom: 80px;
+    }
+    .comment__container--three {
+        margin-bottom: 120px;
     }
     /* .comment__container--three {
         margin-bottom: 90px;
