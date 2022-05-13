@@ -169,14 +169,17 @@ article:last-child {
     .comment__containerInfo {
         grid-template-columns: 1fr 5fr;
     }
+    .comment__container {
+        margin-bottom: 0px;
+    }
     .comment__container--one {
-        margin-bottom: 80px;
+        margin-bottom: 0px;
     }
     .comment__container--two {
         margin-bottom: 80px;
     }
     .comment__container--three {
-        margin-bottom: 120px;
+        margin-bottom: 160px;
     }
     /* .comment__container--three {
         margin-bottom: 90px;
